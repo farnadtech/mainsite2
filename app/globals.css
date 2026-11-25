@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer base {
+  body {
+    font-family: var(--font-plus-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.farnad-canvas {
+  background-color: #f3fced;
+  background-image:
+    radial-gradient(ellipse 72% 16% at 50% 18%, rgba(73, 173, 10, 0.14), transparent 72%),
+    radial-gradient(ellipse 58% 14% at 14% 38%, rgba(114, 212, 46, 0.13), transparent 68%),
+    radial-gradient(ellipse 60% 15% at 86% 56%, rgba(73, 173, 10, 0.12), transparent 68%),
+    radial-gradient(ellipse 68% 14% at 22% 76%, rgba(114, 212, 46, 0.11), transparent 72%),
+    radial-gradient(ellipse 70% 16% at 78% 88%, rgba(73, 173, 10, 0.12), transparent 74%),
+    linear-gradient(180deg, #f3fced 0%, #f5fdf0 50%, #f1fceb 100%);
+  background-repeat: no-repeat;
+}
+
+.farnad-pill-badge {
+  background: linear-gradient(90deg, rgba(219, 246, 198, 0.96), rgba(235, 251, 222, 0.98));
+  color: #2c6b05;
+  border: 1px solid rgba(73, 173, 10, 0.34);
+  box-shadow: 0 3px 12px rgba(73, 173, 10, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.88);
+}
+
+.farnad-btn-green {
+  background: linear-gradient(135deg, #5cc418 0%, #49AD0A 54%, #348005 100%);
+  box-shadow: 0 8px 22px rgba(73, 173, 10, 0.36), inset 0 1px 1px rgba(212, 250, 184, 0.52);
+}
+
+.farnad-btn-green:hover {
+  background: linear-gradient(135deg, #6ad422 0%, #52bf0c 54%, #3c9207 100%);
+  box-shadow: 0 10px 26px rgba(73, 173, 10, 0.48), inset 0 1px 1px rgba(224, 252, 202, 0.65);
+}
+
+.farnad-featured-card {
+  background: linear-gradient(180deg, #49AD0A 0%, #2f7505 52%, #153802 100%);
+  box-shadow: 0 24px 48px rgba(73, 173, 10, 0.34), inset 0 1px 1px rgba(176, 244, 128, 0.62);
+}
+
+.farnad-glass-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(244, 253, 238, 0.98) 100%);
+  box-shadow: 0 10px 30px rgba(45, 108, 6, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.96);
+}
+
+.farnad-wave-ribbon {
+  background: radial-gradient(ellipse 80% 50% at 50% 50%, rgba(73, 173, 10, 0.14), transparent 72%);
+}
